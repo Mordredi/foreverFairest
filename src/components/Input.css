@@ -1,0 +1,36 @@
+label {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+input {
+  margin-left: 1rem;
+  padding: 0 .5rem;
+}
+
+textarea {
+  margin-left: 1rem;
+  padding: .5rem 1rem;
+}
+
+button {
+  background: hsl(11, 56%, 71%);
+  border: 0;
+  color: #fff;
+  border-radius: 0;
+  box-shadow: 1px 1px 1px #ccc;
+  cursor: pointer;
+  height: 2rem;
+  line-height: 2rem;
+  padding: 0 1rem;
+}
+
+button:hover,
+button:active,
+button:focus {
+  background: hsl(11, 56%, 60%);
+}
+
+button:active {
+  box-shadow: none;
+}

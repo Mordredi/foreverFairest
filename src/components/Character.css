@@ -1,0 +1,23 @@
+.character {
+  text-align: center;
+}
+
+.character h1 {
+  font-family: 'Great Vibes', cursive;
+}
+
+.character a {
+  color: hsl(11, 56%, 71%);
+  text-decoration: none;
+}
+
+.character-thumbnail {
+  width: 16em;
+  margin: 0 1rem 1rem 0;
+  display: inline-block;
+}
+        
+.character a:hover {
+  color: hsl(11, 56%, 60%);
+  text-decoration: underline;
+}

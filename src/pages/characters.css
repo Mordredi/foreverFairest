@@ -1,0 +1,177 @@
+.character-wrapper {
+  width: 200px;
+  margin: 0 auto;
+  overflow-x: auto;
+}
+
+@media screen and (min-width: 424px) {
+  .character-wrapper {
+    width: 424px;
+  }
+}
+
+@media screen and (min-width: 636px) {
+  .character-wrapper {
+    width: 636px;
+  }
+}
+
+@media screen and (min-width: 848px) {
+  .character-wrapper {
+    width: 848px;
+  }
+}
+
+.frame {
+  display: inline-block;
+  position: relative;
+  height: 300px;
+  width: 180px;
+  margin: 0 1rem 1rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.frame span {
+  font-size: 1.6em;
+  line-height: 1.5;
+  font-family: 'Great Vibes', cursive;
+  color: #000;
+  width: 100%;
+  position: absolute;
+  display: inline-block;
+  text-align: center;
+  bottom: 0;
+}
+
+.frame.cinderella {
+  background-image: url('../images/cinderella/cinderella-frame.png')
+}
+
+.frame.cinderella:hover,
+.frame.cinderella:active,
+.frame.cinderella:focus {
+  cursor: pointer;
+  background-image: url('../images/cinderella/cinderella-frame-hover.png')
+}
+
+.frame.frog_princess {
+  background-image: url('../images/tiana/frog_princess-frame.png')
+}
+
+.frame.frog_princess:hover,
+.frame.frog_princess:active,
+.frame.frog_princess:focus {
+  cursor: pointer;
+  background-image: url('../images/tiana/frog_princess-frame-hover.png')
+}
+
+.frame.mermaid_princess {
+  background-image: url('../images/ariel/mermaid_princess-frame.png')
+}
+
+.frame.mermaid_princess:hover,
+.frame.mermaid_princess:active,
+.frame.mermaid_princess:focus {
+  cursor: pointer;
+  background-image: url('../images/ariel/mermaid_princess-frame-hover.png')
+}
+
+.frame.sleeping_princess {
+  background-image: url('../images/aurora/sleeping_princess-frame.png')
+}
+
+.frame.sleeping_princess:hover,
+.frame.sleeping_princess:active,
+.frame.sleeping_princess:focus {
+  cursor: pointer;
+  background-image: url('../images/aurora/sleeping_princess-frame-hover.png')
+}
+
+.frame.spanish_princess {
+  background-image: url('../images/elena/spanish_princess-frame.png')
+}
+
+.frame.spanish_princess:hover,
+.frame.spanish_princess:active,
+.frame.spanish_princess:focus {
+  cursor: pointer;
+  background-image: url('../images/elena/spanish_princess-frame-hover.png')
+}
+
+.frame.ice_sisters {
+  background-image: url('../images/frozen/ice_sisters-frame.png')
+}
+
+.frame.ice_sisters:hover,
+.frame.ice_sisters:active,
+.frame.ice_sisters:focus {
+  cursor: pointer;
+  background-image: url('../images/frozen/ice_sisters-frame-hover.png')
+}
+
+.frame.arabian_princess {
+  background-image: url('../images/jasmine/arabian_princess-frame.png')
+}
+
+.frame.arabian_princess:hover,
+.frame.arabian_princess:active,
+.frame.arabian_princess:focus {
+  cursor: pointer;
+  background-image: url('../images/jasmine/arabian_princess-frame-hover.png')
+}
+
+.frame.brave_princess {
+  background-image: url('../images/merida/brave_princess-frame.png')
+}
+
+.frame.brave_princess:hover,
+.frame.brave_princess:active,
+.frame.brave_princess:focus {
+  cursor: pointer;
+  background-image: url('../images/merida/brave_princess-frame-hover.png')
+}
+
+.frame.island_princess {
+  background-image: url('../images/moana/island_princess-frame.png')
+}
+
+.frame.island_princess:hover,
+.frame.island_princess:active,
+.frame.island_princess:focus {
+  cursor: pointer;
+  background-image: url('../images/moana/island_princess-frame-hover.png')
+}
+
+.frame.tower_princess {
+  background-image: url('../images/rapunzel/tower_princess-frame.png')
+}
+
+.frame.tower_princess:hover,
+.frame.tower_princess:active,
+.frame.tower_princess:focus {
+  cursor: pointer;
+  background-image: url('../images/rapunzel/tower_princess-frame-hover.png')
+}
+
+.frame.apple_princess {
+  background-image: url('../images/snow/apple_princess-frame.png')
+}
+
+.frame.apple_princess:hover,
+.frame.apple_princess:active,
+.frame.apple_princess:focus {
+  cursor: pointer;
+  background-image: url('../images/snow/apple_princess-frame-hover.png')
+}
+
+.frame.princess_beauty {
+  background-image: url('../images/belle/princess_beauty-frame.png')
+}
+
+.frame.princess_beauty:hover,
+.frame.princess_beauty:active,
+.frame.princess_beauty:focus {
+  cursor: pointer;
+  background-image: url('../images/belle/princess_beauty-frame-hover.png')
+}

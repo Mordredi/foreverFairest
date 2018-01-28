@@ -1,0 +1,11 @@
+.ff-highlight {
+  font-family: 'Great Vibes', cursive;
+  color: hsl(11, 56%, 71%); 
+  font-size: 2rem;
+  display: inline-block;
+  margin-right: .5rem;
+}
+
+.center {
+  text-align: center;
+}
