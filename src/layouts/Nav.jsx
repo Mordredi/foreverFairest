@@ -24,9 +24,7 @@ export class Nav extends React.PureComponent {
         <section className={`nav ${ open ? 'open' : '' }`}>
           <Link onClick={this.closeMenu} activeClassName="active" to="/mission">OUR MISSION</Link>
           <Link onClick={this.closeMenu} activeClassName="active" to="/characters">CHARACTERS</Link>
-          <Link onClick={this.closeMenu} activeClassName="active" to="/pricing">PRICING</Link>
           <Link onClick={this.closeMenu} activeClassName="active" to="/contact">CONTACT</Link>
-          <Link onClick={this.closeMenu} activeClassName="active" to="/faq">FAQ</Link>
           <Link onClick={this.closeMenu} activeClassName="active" to="/booking">BOOK NOW</Link>
           <Link onClick={this.closeMenu} activeClassName="active" to="/royal-gossip">ROYAL GOSSIP</Link>
         </section>
