@@ -159,8 +159,6 @@ class TemplateWrapper extends React.PureComponent {
             `}
           </style>
         </Helmet>
-        <Nav />
-        <Header />
         <article>
           {children()}
         </article>
