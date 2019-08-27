@@ -165,7 +165,6 @@ class TemplateWrapper extends React.PureComponent {
           {children()}
         </article>
         <Footer />
-        { modal ? <Modal handleClick={this.handleClick} /> : null }
       </main>
     )
   }
